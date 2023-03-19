@@ -33,6 +33,8 @@ for i in range(len(file_input)):
     else:
         clo.append(file_input[i])
 
+#WGTIK Step 6 menambahkan komentar        
+        
 for i in range(0, len(clo), 4):
     clo[i] = float(clo[i]) * 0.1
 for j in range(1, len(clo), 4):
